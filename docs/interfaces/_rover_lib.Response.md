@@ -1,6 +1,8 @@
-[@rover/lib](../README.md) / Response
+[Rover](../README.md) / [Exports](../modules.md) / [@rover/lib](../modules/_rover_lib.md) / Response
 
 # Interface: Response
+
+[@rover/lib](../modules/_rover_lib.md).Response
 
 A minimal `Response` compatible interface.
 
@@ -10,11 +12,11 @@ A minimal `Response` compatible interface.
 
 ### Properties
 
-- [ok](Response.md#ok)
+- [ok](_rover_lib.Response.md#ok)
 
 ### Methods
 
-- [json](Response.md#json)
+- [json](_rover_lib.Response.md#json)
 
 ## Properties
 
@@ -28,7 +30,7 @@ Whether or not the response status is OK.
 
 #### Defined in
 
-fetch.d.ts:27
+[lib/fetch.ts:36](https://github.com/kasperisager/rover/blob/a90c066/lib/fetch.ts#L36)
 
 ## Methods
 
@@ -48,4 +50,4 @@ The response body as JSON.
 
 #### Defined in
 
-fetch.d.ts:35
+[lib/fetch.ts:45](https://github.com/kasperisager/rover/blob/a90c066/lib/fetch.ts#L45)

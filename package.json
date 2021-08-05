@@ -18,7 +18,7 @@
     "clean": "tsc --build --clean",
     "format": "prettier --write \"**/*.{ts,json,md}\" --ignore-path .gitignore",
     "test": "jest \\.test\\.js",
-    "document": "typedoc --readme none --out $0/docs $0/index.ts"
+    "document": "yarn typedoc --out docs --packages . --readme index.md --name Rover"
   },
   "dependencies": {
     "@types/jest": "^26.0.24",

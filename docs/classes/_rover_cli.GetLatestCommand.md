@@ -1,51 +1,52 @@
-[@rover/cli](../README.md) / GetAllCommand
+[Rover](../README.md) / [Exports](../modules.md) / [@rover/cli](../modules/_rover_cli.md) / GetLatestCommand
 
-# Class: GetAllCommand
+# Class: GetLatestCommand
+
+[@rover/cli](../modules/_rover_cli.md).GetLatestCommand
 
 ## Hierarchy
 
-- [`Command`](Command.md)
+- [`Command`](_rover_cli.Command.md)
 
-  ↳ **`GetAllCommand`**
+  ↳ **`GetLatestCommand`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](GetAllCommand.md#constructor)
+- [constructor](_rover_cli.GetLatestCommand.md#constructor)
 
 ### Properties
 
-- [cli](GetAllCommand.md#cli)
-- [context](GetAllCommand.md#context)
-- [help](GetAllCommand.md#help)
-- [path](GetAllCommand.md#path)
-- [paths](GetAllCommand.md#paths)
-- [speed](GetAllCommand.md#speed)
-- [Default](GetAllCommand.md#default)
-- [isOption](GetAllCommand.md#isoption)
-- [path](GetAllCommand.md#path)
-- [paths](GetAllCommand.md#paths)
-- [schema](GetAllCommand.md#schema)
-- [usage](GetAllCommand.md#usage)
+- [cli](_rover_cli.GetLatestCommand.md#cli)
+- [context](_rover_cli.GetLatestCommand.md#context)
+- [help](_rover_cli.GetLatestCommand.md#help)
+- [path](_rover_cli.GetLatestCommand.md#path)
+- [paths](_rover_cli.GetLatestCommand.md#paths)
+- [Default](_rover_cli.GetLatestCommand.md#default)
+- [isOption](_rover_cli.GetLatestCommand.md#isoption)
+- [path](_rover_cli.GetLatestCommand.md#path)
+- [paths](_rover_cli.GetLatestCommand.md#paths)
+- [schema](_rover_cli.GetLatestCommand.md#schema)
+- [usage](_rover_cli.GetLatestCommand.md#usage)
 
 ### Methods
 
-- [catch](GetAllCommand.md#catch)
-- [execute](GetAllCommand.md#execute)
-- [render](GetAllCommand.md#render)
-- [validateAndExecute](GetAllCommand.md#validateandexecute)
-- [Usage](GetAllCommand.md#usage)
+- [catch](_rover_cli.GetLatestCommand.md#catch)
+- [execute](_rover_cli.GetLatestCommand.md#execute)
+- [render](_rover_cli.GetLatestCommand.md#render)
+- [validateAndExecute](_rover_cli.GetLatestCommand.md#validateandexecute)
+- [Usage](_rover_cli.GetLatestCommand.md#usage)
 
 ## Constructors
 
 ### constructor
 
-• **new GetAllCommand**()
+• **new GetLatestCommand**()
 
 #### Inherited from
 
-[Command](Command.md).[constructor](Command.md#constructor)
+[Command](_rover_cli.Command.md).[constructor](_rover_cli.Command.md#constructor)
 
 ## Properties
 
@@ -58,13 +59,13 @@ be used to query Clipanion and forward commands.
 
 #### Inherited from
 
-[Command](Command.md).[cli](Command.md#cli)
+[Command](_rover_cli.Command.md).[cli](_rover_cli.Command.md#cli)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:118
 
----
+___
 
 ### context
 
@@ -75,13 +76,13 @@ application.
 
 #### Inherited from
 
-[Command](Command.md).[context](Command.md#context)
+[Command](_rover_cli.Command.md).[context](_rover_cli.Command.md#context)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:123
 
----
+___
 
 ### help
 
@@ -92,13 +93,13 @@ which case `Command#execute` won't be called.
 
 #### Inherited from
 
-[Command](Command.md).[help](Command.md#help)
+[Command](_rover_cli.Command.md).[help](_rover_cli.Command.md#help)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:113
 
----
+___
 
 ### path
 
@@ -109,13 +110,13 @@ to access the command currently being executed.
 
 #### Inherited from
 
-[Command](Command.md).[path](Command.md#path)
+[Command](_rover_cli.Command.md).[path](_rover_cli.Command.md#path)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:128
 
----
+___
 
 ### paths
 
@@ -125,23 +126,13 @@ node_modules/clipanion/lib/advanced/Command.d.ts:128
 
 #### Inherited from
 
-[Command](Command.md).[paths](Command.md#paths)
+[Command](_rover_cli.Command.md).[paths](_rover_cli.Command.md#paths)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:69
 
----
-
-### speed
-
-• **speed**: `undefined` \| `number`
-
-#### Defined in
-
-[cli/commands/get-all.tsx:16](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-all.tsx#L16)
-
----
+___
 
 ### Default
 
@@ -152,18 +143,18 @@ clearer that a command is the default one.
 
 **`example`**
 class MyCommand extends Command {
-static paths = [Command.Default];
+  static paths = [Command.Default];
 }
 
 #### Inherited from
 
-[Command](Command.md).[Default](Command.md#default)
+[Command](_rover_cli.Command.md).[Default](_rover_cli.Command.md#default)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:143
 
----
+___
 
 ### isOption
 
@@ -173,13 +164,13 @@ Used to detect option definitions.
 
 #### Inherited from
 
-[Command](Command.md).[isOption](Command.md#isoption)
+[Command](_rover_cli.Command.md).[isOption](_rover_cli.Command.md#isoption)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:133
 
----
+___
 
 ### path
 
@@ -189,13 +180,13 @@ Defined to prevent a common typo.
 
 #### Inherited from
 
-[Command](Command.md).[path](Command.md#path)
+[Command](_rover_cli.Command.md).[path](_rover_cli.Command.md#path)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:73
 
----
+___
 
 ### paths
 
@@ -205,13 +196,13 @@ Paths under which the command should be exposed.
 
 #### Overrides
 
-[Command](Command.md).[paths](Command.md#paths)
+[Command](_rover_cli.Command.md).[paths](_rover_cli.Command.md#paths)
 
 #### Defined in
 
-[cli/commands/get-all.tsx:9](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-all.tsx#L9)
+[cli/commands/get-latest.tsx:7](https://github.com/kasperisager/rover/blob/a90c066/cli/commands/get-latest.tsx#L7)
 
----
+___
 
 ### schema
 
@@ -224,13 +215,13 @@ schema is expected to be generated by Typanion.
 
 #### Inherited from
 
-[Command](Command.md).[schema](Command.md#schema)
+[Command](_rover_cli.Command.md).[schema](_rover_cli.Command.md#schema)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:93
 
----
+___
 
 ### usage
 
@@ -241,18 +232,18 @@ command will be hidden from the general listing.
 
 #### Type declaration
 
-| Name          | Type     |
-| :------------ | :------- |
-| `category`    | `string` |
+| Name | Type |
+| :------ | :------ |
+| `category` | `string` |
 | `description` | `string` |
 
 #### Overrides
 
-[Command](Command.md).[usage](Command.md#usage)
+[Command](_rover_cli.Command.md).[usage](_rover_cli.Command.md#usage)
 
 #### Defined in
 
-[cli/commands/get-all.tsx:11](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-all.tsx#L11)
+[cli/commands/get-latest.tsx:9](https://github.com/kasperisager/rover/blob/a90c066/cli/commands/get-latest.tsx#L9)
 
 ## Methods
 
@@ -266,8 +257,8 @@ the parent class error handling.
 
 #### Parameters
 
-| Name    | Type  |
-| :------ | :---- |
+| Name | Type |
+| :------ | :------ |
 | `error` | `any` |
 
 #### Returns
@@ -276,13 +267,13 @@ the parent class error handling.
 
 #### Inherited from
 
-[Command](Command.md).[catch](Command.md#catch)
+[Command](_rover_cli.Command.md).[catch](_rover_cli.Command.md#catch)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:108
 
----
+___
 
 ### execute
 
@@ -294,13 +285,13 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Inherited from
 
-[Command](Command.md).[execute](Command.md#execute)
+[Command](_rover_cli.Command.md).[execute](_rover_cli.Command.md#execute)
 
 #### Defined in
 
-[cli/command.ts:6](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L6)
+[cli/command.ts:6](https://github.com/kasperisager/rover/blob/a90c066/cli/command.ts#L6)
 
----
+___
 
 ### render
 
@@ -312,13 +303,13 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Overrides
 
-[Command](Command.md).[render](Command.md#render)
+[Command](_rover_cli.Command.md).[render](_rover_cli.Command.md#render)
 
 #### Defined in
 
-[cli/commands/get-all.tsx:22](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-all.tsx#L22)
+[cli/commands/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/a90c066/cli/commands/get-latest.tsx#L14)
 
----
+___
 
 ### validateAndExecute
 
@@ -330,13 +321,13 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Inherited from
 
-[Command](Command.md).[validateAndExecute](Command.md#validateandexecute)
+[Command](_rover_cli.Command.md).[validateAndExecute](_rover_cli.Command.md#validateandexecute)
 
 #### Defined in
 
 node_modules/clipanion/lib/advanced/Command.d.ts:129
 
----
+___
 
 ### Usage
 
@@ -346,7 +337,7 @@ Defines the usage information for the given command.
 
 #### Parameters
 
-| Name    | Type    |
+| Name | Type |
 | :------ | :------ |
 | `usage` | `Usage` |
 
@@ -356,7 +347,7 @@ Defines the usage information for the given command.
 
 #### Inherited from
 
-[Command](Command.md).[Usage](Command.md#usage)
+[Command](_rover_cli.Command.md).[Usage](_rover_cli.Command.md#usage)
 
 #### Defined in
 

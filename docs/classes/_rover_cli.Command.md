@@ -1,6 +1,8 @@
-[@rover/cli](../README.md) / Command
+[Rover](../README.md) / [Exports](../modules.md) / [@rover/cli](../modules/_rover_cli.md) / Command
 
 # Class: Command
+
+[@rover/cli](../modules/_rover_cli.md).Command
 
 ## Hierarchy
 
@@ -8,39 +10,39 @@
 
   ↳ **`Command`**
 
-  ↳↳ [`GetCommand`](GetCommand.md)
+  ↳↳ [`GetCommand`](_rover_cli.GetCommand.md)
 
-  ↳↳ [`GetAllCommand`](GetAllCommand.md)
+  ↳↳ [`GetAllCommand`](_rover_cli.GetAllCommand.md)
 
-  ↳↳ [`GetLatestCommand`](GetLatestCommand.md)
+  ↳↳ [`GetLatestCommand`](_rover_cli.GetLatestCommand.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Command.md#constructor)
+- [constructor](_rover_cli.Command.md#constructor)
 
 ### Properties
 
-- [cli](Command.md#cli)
-- [context](Command.md#context)
-- [help](Command.md#help)
-- [path](Command.md#path)
-- [paths](Command.md#paths)
-- [Default](Command.md#default)
-- [isOption](Command.md#isoption)
-- [path](Command.md#path)
-- [paths](Command.md#paths)
-- [schema](Command.md#schema)
-- [usage](Command.md#usage)
+- [cli](_rover_cli.Command.md#cli)
+- [context](_rover_cli.Command.md#context)
+- [help](_rover_cli.Command.md#help)
+- [path](_rover_cli.Command.md#path)
+- [paths](_rover_cli.Command.md#paths)
+- [Default](_rover_cli.Command.md#default)
+- [isOption](_rover_cli.Command.md#isoption)
+- [path](_rover_cli.Command.md#path)
+- [paths](_rover_cli.Command.md#paths)
+- [schema](_rover_cli.Command.md#schema)
+- [usage](_rover_cli.Command.md#usage)
 
 ### Methods
 
-- [catch](Command.md#catch)
-- [execute](Command.md#execute)
-- [render](Command.md#render)
-- [validateAndExecute](Command.md#validateandexecute)
-- [Usage](Command.md#usage)
+- [catch](_rover_cli.Command.md#catch)
+- [execute](_rover_cli.Command.md#execute)
+- [render](_rover_cli.Command.md#render)
+- [validateAndExecute](_rover_cli.Command.md#validateandexecute)
+- [Usage](_rover_cli.Command.md#usage)
 
 ## Constructors
 
@@ -69,7 +71,7 @@ BaseCommand.cli
 
 node_modules/clipanion/lib/advanced/Command.d.ts:118
 
----
+___
 
 ### context
 
@@ -86,7 +88,7 @@ BaseCommand.context
 
 node_modules/clipanion/lib/advanced/Command.d.ts:123
 
----
+___
 
 ### help
 
@@ -103,7 +105,7 @@ BaseCommand.help
 
 node_modules/clipanion/lib/advanced/Command.d.ts:113
 
----
+___
 
 ### path
 
@@ -120,7 +122,7 @@ BaseCommand.path
 
 node_modules/clipanion/lib/advanced/Command.d.ts:128
 
----
+___
 
 ### paths
 
@@ -136,7 +138,7 @@ BaseCommand.paths
 
 node_modules/clipanion/lib/advanced/Command.d.ts:69
 
----
+___
 
 ### Default
 
@@ -147,7 +149,7 @@ clearer that a command is the default one.
 
 **`example`**
 class MyCommand extends Command {
-static paths = [Command.Default];
+  static paths = [Command.Default];
 }
 
 #### Inherited from
@@ -158,7 +160,7 @@ BaseCommand.Default
 
 node_modules/clipanion/lib/advanced/Command.d.ts:143
 
----
+___
 
 ### isOption
 
@@ -174,7 +176,7 @@ BaseCommand.isOption
 
 node_modules/clipanion/lib/advanced/Command.d.ts:133
 
----
+___
 
 ### path
 
@@ -190,7 +192,7 @@ BaseCommand.path
 
 node_modules/clipanion/lib/advanced/Command.d.ts:73
 
----
+___
 
 ### paths
 
@@ -206,7 +208,7 @@ BaseCommand.paths
 
 node_modules/clipanion/lib/advanced/Command.d.ts:77
 
----
+___
 
 ### schema
 
@@ -225,7 +227,7 @@ BaseCommand.schema
 
 node_modules/clipanion/lib/advanced/Command.d.ts:93
 
----
+___
 
 ### usage
 
@@ -254,8 +256,8 @@ the parent class error handling.
 
 #### Parameters
 
-| Name    | Type  |
-| :------ | :---- |
+| Name | Type |
+| :------ | :------ |
 | `error` | `any` |
 
 #### Returns
@@ -270,7 +272,7 @@ BaseCommand.catch
 
 node_modules/clipanion/lib/advanced/Command.d.ts:108
 
----
+___
 
 ### execute
 
@@ -286,9 +288,9 @@ BaseCommand.execute
 
 #### Defined in
 
-[cli/command.ts:6](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L6)
+[cli/command.ts:6](https://github.com/kasperisager/rover/blob/a90c066/cli/command.ts#L6)
 
----
+___
 
 ### render
 
@@ -300,9 +302,9 @@ BaseCommand.execute
 
 #### Defined in
 
-[cli/command.ts:18](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L18)
+[cli/command.ts:18](https://github.com/kasperisager/rover/blob/a90c066/cli/command.ts#L18)
 
----
+___
 
 ### validateAndExecute
 
@@ -320,7 +322,7 @@ BaseCommand.validateAndExecute
 
 node_modules/clipanion/lib/advanced/Command.d.ts:129
 
----
+___
 
 ### Usage
 
@@ -330,7 +332,7 @@ Defines the usage information for the given command.
 
 #### Parameters
 
-| Name    | Type    |
+| Name | Type |
 | :------ | :------ |
 | `usage` | `Usage` |
 
