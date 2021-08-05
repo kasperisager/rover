@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { parse } from "query-string";
 
@@ -9,7 +8,7 @@ import { GetLatest } from "./pages/get-latest";
 
 import styles from "./app.module.css";
 
-const App: FunctionComponent = () => (
+export const App: FunctionComponent = () => (
   <Router>
     <div className={styles.app}>
       <Switch>
@@ -31,5 +30,3 @@ const App: FunctionComponent = () => (
     </div>
   </Router>
 );
-
-ReactDOM.render(<App />, document.querySelector("#app"));
