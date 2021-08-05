@@ -4,11 +4,10 @@ import type { Rover } from "./rover";
 import { endpoint } from "./endpoint";
 
 /**
- * Get the latest Rover image. If no latest image isn't available, `null` is
- * returned.
+ * Get the latest Rover image.
  *
  * @param fetch - An implementation of `Fetch` to use for HTTP requests.
- * @returns The latest Rover image if available, other `null`.
+ * @returns The latest Rover image if available, otherwise `null`.
  *
  * @public
  */

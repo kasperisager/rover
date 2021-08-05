@@ -32,7 +32,7 @@ The HTTP endpoint of the Rover API.
 
 #### Defined in
 
-[lib/endpoint.ts:6](https://github.com/kasperisager/rover/blob/3feb871/lib/endpoint.ts#L6)
+[lib/endpoint.ts:6](https://github.com/kasperisager/rover/blob/c631f0f/lib/endpoint.ts#L6)
 
 ## Functions
 
@@ -53,11 +53,11 @@ Get the specified Rover image.
 
 `Promise`<`null` \| [`Rover`](../interfaces/_rover_lib.Rover.md)\>
 
-The specified Rover image if available, other `null`.
+The specified Rover image if available, otherwise `null`.
 
 #### Defined in
 
-[lib/get.ts:15](https://github.com/kasperisager/rover/blob/3feb871/lib/get.ts#L15)
+[lib/get.ts:15](https://github.com/kasperisager/rover/blob/c631f0f/lib/get.ts#L15)
 
 ---
 
@@ -87,7 +87,7 @@ An iterator over all available Rover images.
 
 #### Defined in
 
-[lib/get-all.ts:20](https://github.com/kasperisager/rover/blob/3feb871/lib/get-all.ts#L20)
+[lib/get-all.ts:20](https://github.com/kasperisager/rover/blob/c631f0f/lib/get-all.ts#L20)
 
 ---
 
@@ -95,8 +95,7 @@ An iterator over all available Rover images.
 
 ▸ `Const` **getLatest**(`fetch`): `Promise`<`null` \| [`Rover`](../interfaces/_rover_lib.Rover.md)\>
 
-Get the latest Rover image. If no latest image isn't available, `null` is
-returned.
+Get the latest Rover image.
 
 #### Parameters
 
@@ -108,8 +107,8 @@ returned.
 
 `Promise`<`null` \| [`Rover`](../interfaces/_rover_lib.Rover.md)\>
 
-The latest Rover image if available, other `null`.
+The latest Rover image if available, otherwise `null`.
 
 #### Defined in
 
-[lib/get-latest.ts:15](https://github.com/kasperisager/rover/blob/3feb871/lib/get-latest.ts#L15)
+[lib/get-latest.ts:14](https://github.com/kasperisager/rover/blob/c631f0f/lib/get-latest.ts#L14)

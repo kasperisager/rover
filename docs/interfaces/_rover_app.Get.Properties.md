@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[app/pages/get.tsx:51](https://github.com/kasperisager/rover/blob/3feb871/app/pages/get.tsx#L51)
+[app/pages/get.tsx:51](https://github.com/kasperisager/rover/blob/c631f0f/app/pages/get.tsx#L51)
