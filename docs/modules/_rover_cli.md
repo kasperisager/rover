@@ -34,9 +34,9 @@
 
 #### Defined in
 
-[cli/fetch.ts:6](https://github.com/kasperisager/rover/blob/a90c066/cli/fetch.ts#L6)
+[cli/fetch.ts:6](https://github.com/kasperisager/rover/blob/665e51e/cli/fetch.ts#L6)
 
-___
+---
 
 ### Get
 
@@ -44,9 +44,9 @@ ___
 
 #### Defined in
 
-[cli/views/get.tsx:14](https://github.com/kasperisager/rover/blob/a90c066/cli/views/get.tsx#L14)
+[cli/views/get.tsx:14](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get.tsx#L14)
 
-___
+---
 
 ### GetAll
 
@@ -54,9 +54,9 @@ ___
 
 #### Defined in
 
-[cli/views/get-all.tsx:16](https://github.com/kasperisager/rover/blob/a90c066/cli/views/get-all.tsx#L16)
+[cli/views/get-all.tsx:16](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get-all.tsx#L16)
 
-___
+---
 
 ### GetLatest
 
@@ -64,9 +64,9 @@ ___
 
 #### Defined in
 
-[cli/views/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/a90c066/cli/views/get-latest.tsx#L14)
+[cli/views/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get-latest.tsx#L14)
 
-___
+---
 
 ### Image
 
@@ -74,9 +74,9 @@ ___
 
 #### Defined in
 
-[cli/components/image.tsx:4](https://github.com/kasperisager/rover/blob/a90c066/cli/components/image.tsx#L4)
+[cli/components/image.tsx:4](https://github.com/kasperisager/rover/blob/665e51e/cli/components/image.tsx#L4)
 
-___
+---
 
 ### cli
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[cli/cli.ts:9](https://github.com/kasperisager/rover/blob/a90c066/cli/cli.ts#L9)
+[cli/cli.ts:9](https://github.com/kasperisager/rover/blob/665e51e/cli/cli.ts#L9)

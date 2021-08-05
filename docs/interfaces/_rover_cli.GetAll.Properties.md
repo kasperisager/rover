@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[cli/views/get-all.tsx:61](https://github.com/kasperisager/rover/blob/a90c066/cli/views/get-all.tsx#L61)
+[cli/views/get-all.tsx:61](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get-all.tsx#L61)

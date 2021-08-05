@@ -30,7 +30,7 @@ Whether or not the response status is OK.
 
 #### Defined in
 
-[lib/fetch.ts:36](https://github.com/kasperisager/rover/blob/a90c066/lib/fetch.ts#L36)
+[lib/fetch.ts:36](https://github.com/kasperisager/rover/blob/665e51e/lib/fetch.ts#L36)
 
 ## Methods
 
@@ -50,4 +50,4 @@ The response body as JSON.
 
 #### Defined in
 
-[lib/fetch.ts:45](https://github.com/kasperisager/rover/blob/a90c066/lib/fetch.ts#L45)
+[lib/fetch.ts:45](https://github.com/kasperisager/rover/blob/665e51e/lib/fetch.ts#L45)

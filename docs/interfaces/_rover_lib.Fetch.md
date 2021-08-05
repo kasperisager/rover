@@ -16,8 +16,8 @@ A minimal `fetch()` compatible interface.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name  | Type     | Description       |
+| :---- | :------- | :---------------- |
 | `url` | `string` | The URL to fetch. |
 
 #### Returns
@@ -28,4 +28,4 @@ The resulting response.
 
 #### Defined in
 
-[lib/fetch.ts:20](https://github.com/kasperisager/rover/blob/a90c066/lib/fetch.ts#L20)
+[lib/fetch.ts:20](https://github.com/kasperisager/rover/blob/665e51e/lib/fetch.ts#L20)
