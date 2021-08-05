@@ -28,4 +28,4 @@ The resulting response.
 
 #### Defined in
 
-[lib/fetch.ts:20](https://github.com/kasperisager/rover/blob/665e51e/lib/fetch.ts#L20)
+[lib/fetch.ts:20](https://github.com/kasperisager/rover/blob/09d897c/lib/fetch.ts#L20)

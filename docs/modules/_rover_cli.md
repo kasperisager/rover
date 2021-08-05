@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[cli/fetch.ts:6](https://github.com/kasperisager/rover/blob/665e51e/cli/fetch.ts#L6)
+[cli/fetch.ts:6](https://github.com/kasperisager/rover/blob/09d897c/cli/fetch.ts#L6)
 
 ---
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[cli/views/get.tsx:14](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get.tsx#L14)
+[cli/views/get.tsx:14](https://github.com/kasperisager/rover/blob/09d897c/cli/views/get.tsx#L14)
 
 ---
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[cli/views/get-all.tsx:16](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get-all.tsx#L16)
+[cli/views/get-all.tsx:16](https://github.com/kasperisager/rover/blob/09d897c/cli/views/get-all.tsx#L16)
 
 ---
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[cli/views/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/665e51e/cli/views/get-latest.tsx#L14)
+[cli/views/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/09d897c/cli/views/get-latest.tsx#L14)
 
 ---
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[cli/components/image.tsx:4](https://github.com/kasperisager/rover/blob/665e51e/cli/components/image.tsx#L4)
+[cli/components/image.tsx:4](https://github.com/kasperisager/rover/blob/09d897c/cli/components/image.tsx#L4)
 
 ---
 
@@ -84,4 +84,4 @@
 
 #### Defined in
 
-[cli/cli.ts:9](https://github.com/kasperisager/rover/blob/665e51e/cli/cli.ts#L9)
+[cli/cli.ts:9](https://github.com/kasperisager/rover/blob/09d897c/cli/cli.ts#L9)

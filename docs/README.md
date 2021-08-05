@@ -31,7 +31,7 @@ yarn test
 
 ## Usage
 
-The project has two available front ends: A web application and a command line interface.
+The project has two available front ends: A web application and a command line interface. For programmatic usage, check out the shared [`@rover/lib`](docs/modules/_rover_lib.md) module.
 
 ### Web application
 

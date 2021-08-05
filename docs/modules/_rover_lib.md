@@ -32,7 +32,7 @@ The HTTP endpoint of the Rover API.
 
 #### Defined in
 
-[lib/endpoint.ts:6](https://github.com/kasperisager/rover/blob/665e51e/lib/endpoint.ts#L6)
+[lib/endpoint.ts:6](https://github.com/kasperisager/rover/blob/09d897c/lib/endpoint.ts#L6)
 
 ## Functions
 
@@ -57,7 +57,7 @@ The specified Rover image if available, other `null`.
 
 #### Defined in
 
-[lib/get.ts:15](https://github.com/kasperisager/rover/blob/665e51e/lib/get.ts#L15)
+[lib/get.ts:15](https://github.com/kasperisager/rover/blob/09d897c/lib/get.ts#L15)
 
 ---
 
@@ -87,7 +87,7 @@ An iterator over all available Rover images.
 
 #### Defined in
 
-[lib/get-all.ts:20](https://github.com/kasperisager/rover/blob/665e51e/lib/get-all.ts#L20)
+[lib/get-all.ts:20](https://github.com/kasperisager/rover/blob/09d897c/lib/get-all.ts#L20)
 
 ---
 
@@ -112,4 +112,4 @@ The latest Rover image if available, other `null`.
 
 #### Defined in
 
-[lib/get-latest.ts:15](https://github.com/kasperisager/rover/blob/665e51e/lib/get-latest.ts#L15)
+[lib/get-latest.ts:15](https://github.com/kasperisager/rover/blob/09d897c/lib/get-latest.ts#L15)

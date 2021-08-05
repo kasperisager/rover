@@ -32,7 +32,7 @@ The Rover image is various formats.
 
 #### Defined in
 
-[lib/rover.ts:19](https://github.com/kasperisager/rover/blob/665e51e/lib/rover.ts#L19)
+[lib/rover.ts:19](https://github.com/kasperisager/rover/blob/09d897c/lib/rover.ts#L19)
 
 ---
 
@@ -48,4 +48,4 @@ Arbitrary metadata associated with the Rover image. Explore at will!
 
 #### Defined in
 
-[lib/rover.ts:12](https://github.com/kasperisager/rover/blob/665e51e/lib/rover.ts#L12)
+[lib/rover.ts:12](https://github.com/kasperisager/rover/blob/09d897c/lib/rover.ts#L12)
