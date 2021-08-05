@@ -198,7 +198,7 @@ Paths under which the command should be exposed.
 
 #### Defined in
 
-[cli/commands/get-latest.tsx:7](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/commands/get-latest.tsx#L7)
+[cli/commands/get-latest.tsx:7](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-latest.tsx#L7)
 
 ---
 
@@ -241,7 +241,7 @@ command will be hidden from the general listing.
 
 #### Defined in
 
-[cli/commands/get-latest.tsx:9](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/commands/get-latest.tsx#L9)
+[cli/commands/get-latest.tsx:9](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-latest.tsx#L9)
 
 ## Methods
 
@@ -287,7 +287,7 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Defined in
 
-[cli/command.ts:6](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/command.ts#L6)
+[cli/command.ts:6](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L6)
 
 ---
 
@@ -305,7 +305,7 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Defined in
 
-[cli/commands/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/commands/get-latest.tsx#L14)
+[cli/commands/get-latest.tsx:14](https://github.com/kasperisager/rover/blob/c3f6b21/cli/commands/get-latest.tsx#L14)
 
 ---
 

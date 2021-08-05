@@ -286,7 +286,7 @@ BaseCommand.execute
 
 #### Defined in
 
-[cli/command.ts:6](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/command.ts#L6)
+[cli/command.ts:6](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L6)
 
 ---
 
@@ -300,7 +300,7 @@ BaseCommand.execute
 
 #### Defined in
 
-[cli/command.ts:18](https://github.com/kasperisager/rover/blob/dc1c8cc/cli/command.ts#L18)
+[cli/command.ts:18](https://github.com/kasperisager/rover/blob/c3f6b21/cli/command.ts#L18)
 
 ---
 

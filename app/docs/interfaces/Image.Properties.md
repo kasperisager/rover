@@ -20,4 +20,4 @@ The image source.
 
 #### Defined in
 
-[components/image.tsx:25](https://github.com/kasperisager/rover/blob/dc1c8cc/app/components/image.tsx#L25)
+[components/image.tsx:25](https://github.com/kasperisager/rover/blob/c3f6b21/app/components/image.tsx#L25)
