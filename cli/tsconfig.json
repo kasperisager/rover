@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig.json",
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.json"],
+  "references": [
+    {
+      "path": "../lib"
+    }
+  ]
+}

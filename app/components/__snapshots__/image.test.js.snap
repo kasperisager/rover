@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image> renders with a src attribute 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "url(https://example.com/foo.png)",
+    }
+  }
+/>
+`;
+
+exports[`<Image> renders with children 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "url(https://example.com/foo.png)",
+    }
+  }
+>
+  <div
+    tabIndex={0}
+  >
+    Hello world
+  </div>
+</div>
+`;

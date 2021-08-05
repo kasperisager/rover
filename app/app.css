@@ -1,0 +1,13 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 150%;
+}
+
+body {
+  margin: 0;
+}

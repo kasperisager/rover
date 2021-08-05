@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json.schemastore.org/package.json",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasperisager/rover.git"
+  },
+  "author": "Kasper Isager <kasperisager@hey.com>",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "app",
+    "cli",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --build --watch",
+    "clean": "tsc --build --clean",
+    "format": "prettier --write \"**/*.{ts,json,md}\" --ignore-path .gitignore",
+    "test": "jest \\.test\\.js"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/sinon": "^10.0.2",
+    "jest": "^27.0.6",
+    "jest-transform-stub": "^2.0.0",
+    "prettier": "^2.1.2",
+    "sinon": "^11.1.2",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "transform": {
+      "\\.css$": "jest-transform-stub"
+    }
+  }
+}

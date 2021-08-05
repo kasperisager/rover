@@ -1,0 +1,28 @@
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.25);
+}
+
+.image:hover {
+  cursor: help;
+}
+
+.caption {
+  display: inline-block;
+  opacity: 0;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 100ms;
+}
+
+.image:hover .caption,
+.caption:focus {
+  opacity: 1;
+}
+
+.caption p {
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image> renders with a src attribute 1`] = `
+<ink-text
+  internal_transform={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "textWrap": "wrap",
+    }
+  }
+>
+  :-)
+</ink-text>
+`;

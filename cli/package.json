@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/package.json",
+  "name": "@rover/cli",
+  "version": "0.0.0",
+  "description": "Command line interface for the Rover project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasperisager/rover.git"
+  },
+  "author": "Kasper Isager <kasperisager@hey.com>",
+  "license": "UNLICENSED",
+  "bin": {
+    "rover": "run.js"
+  },
+  "files": [
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "dependencies": {
+    "@rover/lib": "workspace:*",
+    "@types/node-fetch": "^2.5.12",
+    "@types/react": "^17.0.15",
+    "clipanion": "^3.0.1",
+    "ink": "^3.0.9",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "typanion": "^3.3.2"
+  }
+}
