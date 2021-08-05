@@ -141,7 +141,7 @@ node_modules/clipanion/lib/advanced/Command.d.ts:69
 
 #### Defined in
 
-[cli/commands/get-all.tsx:16](https://github.com/kasperisager/rover/blob/09d897c/cli/commands/get-all.tsx#L16)
+[cli/commands/get-all.tsx:16](https://github.com/kasperisager/rover/blob/3feb871/cli/commands/get-all.tsx#L16)
 
 ---
 
@@ -211,7 +211,7 @@ Paths under which the command should be exposed.
 
 #### Defined in
 
-[cli/commands/get-all.tsx:9](https://github.com/kasperisager/rover/blob/09d897c/cli/commands/get-all.tsx#L9)
+[cli/commands/get-all.tsx:9](https://github.com/kasperisager/rover/blob/3feb871/cli/commands/get-all.tsx#L9)
 
 ---
 
@@ -254,7 +254,7 @@ command will be hidden from the general listing.
 
 #### Defined in
 
-[cli/commands/get-all.tsx:11](https://github.com/kasperisager/rover/blob/09d897c/cli/commands/get-all.tsx#L11)
+[cli/commands/get-all.tsx:11](https://github.com/kasperisager/rover/blob/3feb871/cli/commands/get-all.tsx#L11)
 
 ## Methods
 
@@ -300,7 +300,7 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Defined in
 
-[cli/command.ts:6](https://github.com/kasperisager/rover/blob/09d897c/cli/command.ts#L6)
+[cli/command.ts:6](https://github.com/kasperisager/rover/blob/3feb871/cli/command.ts#L6)
 
 ---
 
@@ -318,7 +318,7 @@ node_modules/clipanion/lib/advanced/Command.d.ts:108
 
 #### Defined in
 
-[cli/commands/get-all.tsx:22](https://github.com/kasperisager/rover/blob/09d897c/cli/commands/get-all.tsx#L22)
+[cli/commands/get-all.tsx:22](https://github.com/kasperisager/rover/blob/3feb871/cli/commands/get-all.tsx#L22)
 
 ---
 

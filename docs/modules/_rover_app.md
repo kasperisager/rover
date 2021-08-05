@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[app/app.tsx:11](https://github.com/kasperisager/rover/blob/09d897c/app/app.tsx#L11)
+[app/app.tsx:11](https://github.com/kasperisager/rover/blob/3feb871/app/app.tsx#L11)
 
 ---
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[app/fetch.ts:5](https://github.com/kasperisager/rover/blob/09d897c/app/fetch.ts#L5)
+[app/fetch.ts:5](https://github.com/kasperisager/rover/blob/3feb871/app/fetch.ts#L5)
 
 ---
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[app/pages/get.tsx:13](https://github.com/kasperisager/rover/blob/09d897c/app/pages/get.tsx#L13)
+[app/pages/get.tsx:13](https://github.com/kasperisager/rover/blob/3feb871/app/pages/get.tsx#L13)
 
 ---
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[app/pages/get-all.tsx:15](https://github.com/kasperisager/rover/blob/09d897c/app/pages/get-all.tsx#L15)
+[app/pages/get-all.tsx:15](https://github.com/kasperisager/rover/blob/3feb871/app/pages/get-all.tsx#L15)
 
 ---
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[app/pages/get-latest.tsx:13](https://github.com/kasperisager/rover/blob/09d897c/app/pages/get-latest.tsx#L13)
+[app/pages/get-latest.tsx:13](https://github.com/kasperisager/rover/blob/3feb871/app/pages/get-latest.tsx#L13)
 
 ---
 
@@ -77,4 +77,4 @@
 
 #### Defined in
 
-[app/components/image.tsx:5](https://github.com/kasperisager/rover/blob/09d897c/app/components/image.tsx#L5)
+[app/components/image.tsx:5](https://github.com/kasperisager/rover/blob/3feb871/app/components/image.tsx#L5)
