@@ -4,6 +4,12 @@ import type { Rover } from "./rover";
 import { endpoint } from "./endpoint";
 
 /**
+ * Get the latest Rover image. If no latest image isn't available, `null` is
+ * returned.
+ *
+ * @param fetch - An implementation of `Fetch` to use for HTTP requests.
+ * @returns The latest Rover image if available, other `null`.
+ *
  * @public
  */
 export const getLatest = async (fetch: Fetch): Promise<Rover | null> => {

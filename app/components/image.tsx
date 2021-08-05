@@ -18,7 +18,10 @@ export const Image: FunctionComponent<Image.Properties> = ({
 };
 
 export namespace Image {
-  export type Properties = {
+  export interface Properties {
+    /**
+     * The image source.
+     */
     src: string;
-  };
+  }
 }

@@ -57,7 +57,7 @@ export const GetAll: FunctionComponent<GetAll.Properties> = ({
 };
 
 export namespace GetAll {
-  export type Properties = {
+  export interface Properties {
     speed?: number;
-  };
+  }
 }

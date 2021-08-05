@@ -4,6 +4,17 @@ import type { Rover } from "./rover";
 import { endpoint } from "./endpoint";
 
 /**
+ * Get an iterator over all available Rover images.
+ *
+ * @remarks
+ * The iterator ends when no more images are available. If the iterator is
+ * consumed, without ending, as new images are made available after the start of
+ * a new sol, those images will also be yielded. The iterator will not yield
+ * images made available after it has ended.
+ *
+ * @param fetch - An implementation of `Fetch` to use for HTTP requests.
+ * @returns An iterator over all available Rover images.
+ *
  * @public
  */
 export const getAll = (fetch: Fetch): AsyncIterableIterator<Rover> => {

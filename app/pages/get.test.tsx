@@ -2,7 +2,8 @@ import React from "react";
 import { ReactTestRenderer, create, act } from "react-test-renderer";
 import { stub } from "sinon";
 
-import { endpoint, fixtures } from "@rover/lib";
+import { endpoint } from "@rover/lib";
+import * as fixtures from "@rover/lib/fixtures";
 
 import { FetchContext } from "../fetch";
 import { Get } from "./get";

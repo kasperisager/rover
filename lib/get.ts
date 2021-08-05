@@ -4,6 +4,12 @@ import type { Rover } from "./rover";
 import { endpoint } from "./endpoint";
 
 /**
+ * Get the specified Rover image.
+ *
+ * @param fetch - An implementation of `Fetch` to use for HTTP requests.
+ * @param index - The index of the Rover image to get.
+ * @returns The specified Rover image if available, other `null`.
+ *
  * @public
  */
 export const get = async (

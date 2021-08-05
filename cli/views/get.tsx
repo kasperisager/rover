@@ -43,7 +43,7 @@ export const Get: FunctionComponent<Get.Properties> = ({ index }) => {
 };
 
 export namespace Get {
-  export type Properties = {
+  export interface Properties {
     index: number;
-  };
+  }
 }
